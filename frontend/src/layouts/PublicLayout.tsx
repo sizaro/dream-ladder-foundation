@@ -8,7 +8,7 @@ const PublicLayout = () => {
         <>
             <Navbar />
 
-            <main>
+            <main className="pt-[72px]">
                 <Outlet />
             </main>
 

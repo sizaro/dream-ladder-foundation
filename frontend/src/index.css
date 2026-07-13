@@ -1,2 +1,40 @@
 
 @import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  font-family: Inter, "Segoe UI", Roboto, sans-serif;
+  background-color: #f7efe4;
+  color: #2f241d;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f7efe4 0%, #efe2d0 100%);
+  color: #2f241d;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.bg-white {
+  background-color: #f8f2e8 !important;
+}
+
+.bg-gray-50 {
+  background-color: #f2e8d8 !important;
+}
+
+.border-gray-200 {
+  border-color: #e6d9c5 !important;
+}
+
+.border-gray-100 {
+  border-color: #e9dcc9 !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 10px 30px rgba(87, 63, 34, 0.07) !important;
+}

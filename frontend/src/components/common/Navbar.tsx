@@ -11,7 +11,7 @@ export default function Navbar() {
       : "text-gray-700 hover:text-green-600";
 
   return (
-    <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
+    <nav className="w-full border-b border-[#e6d9c5] bg-[#f8f2e8]/95 shadow-sm backdrop-blur fixed top-0 left-0 z-50">
 
       {/* TOP BAR */}
       <div className="flex items-center justify-between px-4 py-3">
