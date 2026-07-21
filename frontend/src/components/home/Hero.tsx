@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-b from-green-50 via-white to-white">
-      <div className="mx-auto flex max-w-7xl flex-col-reverse items-center gap-14 px-5 py-16 sm:px-6 lg:flex-row lg:gap-16 lg:px-8 lg:py-24">
+    <section className="bg-gradient-to-b from-green-50 via-white to-white h-[90vh]">
+      <div className="mx-auto flex max-w-7xl flex-col-reverse items-center gap-14 px-5 py-4 sm:px-6 lg:flex-row lg:gap-16 lg:px-8 lg:py-2 justify-center self-center">
 
         {/* ================= LEFT CONTENT ================= */}
         <div className="w-full lg:w-1/2">
@@ -16,7 +16,7 @@ export default function Hero() {
           </span>
 
           {/* Heading */}
-          <h1 className="mt-6 text-4xl font-extrabold leading-tight text-gray-900 sm:text-5xl lg:text-6xl">
+          <h1 className="mt-6 text-4xl font-extrabold leading-tight text-gray-900 sm:text-5xl lg:text-5xl">
             Building
             <span className="block text-green-600">
               Brighter Futures
@@ -76,11 +76,11 @@ export default function Hero() {
 
         {/* ================= RIGHT IMAGE ================= */}
         <div className="w-full lg:w-1/2">
-          <div className="overflow-hidden rounded-3xl shadow-2xl">
+          <div className="overflow-hidden rounded-3xl shadow-2xl h-[90vh] ">
             <img
               src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80"
               alt="Children learning together in a classroom supported by educational programs"
-              className="h-[350px] w-full object-cover sm:h-[450px] lg:h-[650px]"
+              className="h-[350px] w-full object-cover focus center sm:h-[450px] lg:h-full"
             />
           </div>
         </div>
