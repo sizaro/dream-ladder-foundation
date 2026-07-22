@@ -22,9 +22,9 @@ export default function Navbar() {
           className="flex items-center gap-3"
         >
           <img
-            src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?w=200"
+            src="images/logo/dreamladder_logo.jpeg"
             alt="Dream Ladder Foundation logo"
-            className="h-10 w-10 rounded-full object-cover"
+            className="h-12 w-12 rounded-full object-cover"
           />
 
           <div className="leading-tight">
@@ -73,8 +73,8 @@ export default function Navbar() {
 
       {/* MOBILE MENU */}
       <div
-        className={`fixed top-0 right-0 h-full w-[75%] max-w-sm bg-white shadow-lg transform transition-transform duration-300 z-50
-        ${open ? "translate-x-0" : "translate-x-full"}`}
+        className={`fixed top-0 left-0 h-full w-[75%] bg-[#f8f2e8]/95 shadow-lg transform transition-transform duration-300 z-50
+        ${open ? "translate-x-0" : "-translate-x-full"}`}
       >
 
         {/* HEADER */}
@@ -87,7 +87,7 @@ export default function Navbar() {
         </div>
 
         {/* LINKS */}
-        <div className="flex flex-col gap-5 p-5 font-medium">
+        <div className="flex flex-col gap-5 p-5 font-medium bg-[#f8f2e8]/95">
 
           <NavLink onClick={() => setOpen(false)} to="/" className={linkClass}>
             Home
